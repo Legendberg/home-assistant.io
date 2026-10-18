@@ -83,7 +83,7 @@ Password:
 | Sleep mode                    | `binary_sensor` | Indicates whether sleep mode is enabled.                                                                    |
 | Sleeping                      | `binary_sensor` | Indicates whether sleep mode is currently active.                                                           |
 | Clean cycle wait time minutes | `select`        | View and select the clean cycle wait time.                                                                  |
-| Globe brightness              | `select`        | View and select the brightness level for the globe light, only for Litter-Robot 4 and 5.                    |
+| Globe brightness              | `select`        | View and select the brightness level for the globe light, only for Litter-Robot 4 and 5. On Litter-Robot 5 it is deprecated and will be removed in 2027.5.0; use the **Night light** entity instead. It is not created for new installations. |
 | Globe light                   | `select`        | View and select the globe light setting, only for Litter-Robot 4 and 5.                                     |
 | Panel brightness              | `select`        | View and select the panel brightness, only for Litter-Robot 4 and 5.                                        |
 | Sleep mode start (per day)    | `time`          | Set each day of the week's sleep mode start time, only for Litter-Robot 5.                                  |
